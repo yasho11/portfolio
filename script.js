@@ -7,7 +7,7 @@ const toast = (msg) => {
   if (!el) return;
   el.textContent = msg;
   clearTimeout(window.__toastTimer);
-  window.__toastTimer = setTimeout(() => (el.textContent = ""), 2200);
+  window.__toastTimer = setTimeout(() => (el.textContent = ""), 2500);
 };
 
 // ====== Year ======
@@ -20,7 +20,7 @@ const observer = new IntersectionObserver(
       if (e.isIntersecting) e.target.classList.add("show");
     });
   },
-  { threshold: 0.12 }
+  { threshold: 0.08 }
 );
 
 $$(".reveal").forEach((el) => observer.observe(el));
@@ -58,9 +58,9 @@ if (copyBtn) {
   copyBtn.addEventListener("click", async () => {
     try {
       await navigator.clipboard.writeText("yashodeep.basnet@gmail.com");
-      toast("✅ Email copied to clipboard!");
+      toast("✓ Email copied to clipboard");
     } catch {
-      toast("Copy failed. Email: yashodeep.basnet@gmail.com");
+      toast("Email: yashodeep.basnet@gmail.com");
     }
   });
 }

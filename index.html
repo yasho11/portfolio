@@ -4,245 +4,233 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Yashodeep Basnet — Data Engineering Portfolio</title>
-  <meta name="description" content="Data Engineering Intern portfolio — ETL pipelines, SQL, Docker, AWS, analytics systems." />
+  <meta name="description" content="Data Engineering portfolio — ETL pipelines, SQL, Docker, AWS, analytics systems." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=JetBrains+Mono:wght@400;500&family=Source+Sans+3:wght@300;400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <!-- Background glow -->
-  <div class="bg">
-    <div class="orb orb--1"></div>
-    <div class="orb orb--2"></div>
-    <div class="orb orb--3"></div>
-    <div class="grain"></div>
-  </div>
 
   <!-- Navbar -->
   <header class="nav-wrap" id="top">
     <nav class="nav container">
       <a class="brand" href="#top" aria-label="Home">
-        <span class="brand__dot"></span>
-        <span class="brand__text">Yashodeep</span>
+        <span class="brand__initials">YB</span>
+        <span class="brand__text">Yashodeep Basnet</span>
       </a>
 
       <div class="nav__links" id="navLinks">
-        <a href="#projects">Projects</a>
-        <a href="#skills">Skills</a>
-        <a href="#journey">Journey</a>
+        <a href="#projects">Research & Projects</a>
+        <a href="#skills">Competencies</a>
+        <a href="#journey">Education</a>
         <a href="#contact">Contact</a>
       </div>
 
       <div class="nav__actions">
-        <a class="btn btn--ghost" href="https://github.com/yasho11" target="_blank" rel="noreferrer">GitHub</a>
-        <a class="btn btn--primary" href="#contact">Hire / Connect</a>
+        <a class="btn btn--outline" href="https://github.com/yasho11" target="_blank" rel="noreferrer">GitHub ↗</a>
+        <a class="btn btn--primary" href="#contact">Get in Touch</a>
         <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false">
           <span></span><span></span><span></span>
         </button>
       </div>
     </nav>
 
-    <!-- Mobile menu -->
     <div class="mobile" id="mobileMenu" aria-hidden="true">
-      <a href="#projects" class="m-link">Projects</a>
-      <a href="#skills" class="m-link">Skills</a>
-      <a href="#journey" class="m-link">Journey</a>
+      <a href="#projects" class="m-link">Research & Projects</a>
+      <a href="#skills" class="m-link">Competencies</a>
+      <a href="#journey" class="m-link">Education</a>
       <a href="#contact" class="m-link">Contact</a>
       <div class="mobile__cta">
-        <a class="btn btn--ghost w-100" href="https://github.com/yasho11" target="_blank" rel="noreferrer">GitHub</a>
-        <a class="btn btn--primary w-100" href="#contact">Hire / Connect</a>
+        <a class="btn btn--outline w-100" href="https://github.com/yasho11" target="_blank" rel="noreferrer">GitHub ↗</a>
+        <a class="btn btn--primary w-100" href="#contact">Get in Touch</a>
       </div>
     </div>
   </header>
 
-  <!-- Hero -->
   <main>
+    <!-- Hero / About -->
     <section class="hero container">
-      <div class="hero__left">
-        <p class="pill reveal">
-          <span class="pill__dot"></span>
-          Data Engineering • ETL • SQL • Docker • AWS
-        </p>
+      <div class="hero__rule reveal"></div>
 
-        <h1 class="reveal">
-          Building <span class="grad">reliable data pipelines</span><br />
-          that turn raw data into <span class="grad2">decisions</span>.
-        </h1>
+      <div class="hero__body">
+        <div class="hero__left">
+          <p class="hero__label reveal">MSc. Data Science &amp; Computational Intelligence</p>
 
-        <p class="sub reveal">
-          I’m <strong>Yashodeep Basnet</strong> — an aspiring <strong>Data Engineer Intern</strong>.
-          I build ETL systems, clean schemas, APIs, and analytics workflows with production-style discipline.
-        </p>
+          <h1 class="reveal">
+            Yashodeep<br /><em>Basnet</em>
+          </h1>
 
-        <div class="hero__cta reveal">
-          <a class="btn btn--primary" href="#projects">View Projects</a>
-          <a class="btn btn--ghost" href="#contact">Let’s Talk</a>
-        </div>
+          <p class="hero__byline reveal">
+            Aspiring Data Engineer focused on building reliable, reproducible data infrastructure —
+            ETL pipelines, analytical schemas, and deployment-ready systems.
+          </p>
 
-        <div class="hero__meta reveal">
-          <div class="stat">
-            <div class="stat__num">ETL</div>
-            <div class="stat__label">Pipeline systems</div>
-          </div>
-          <div class="stat">
-            <div class="stat__num">SQL</div>
-            <div class="stat__label">Schema + analytics</div>
-          </div>
-          <div class="stat">
-            <div class="stat__num">Docker</div>
-            <div class="stat__label">Reproducible deploy</div>
+          <div class="hero__cta reveal">
+            <a class="btn btn--primary" href="#projects">View Projects</a>
+            <a class="btn btn--text" href="#contact">Let's Talk →</a>
           </div>
         </div>
-      </div>
 
-      <div class="hero__right reveal">
-        <div class="card card--hero">
-          <div class="card__top">
-            <div class="chip">Available for Internships</div>
-            <div class="dots">
-              <span></span><span></span><span></span>
+        <aside class="hero__card reveal">
+          <div class="card__section">
+            <p class="card__label">Status</p>
+            <p class="card__value">
+              <span class="status-dot"></span>Available for Internships
+            </p>
+          </div>
+          <div class="card__divider"></div>
+          <div class="card__section">
+            <p class="card__label">Affiliation</p>
+            <p class="card__value">Softwarica College<br /><span class="card__sub">Coventry University, UK</span></p>
+          </div>
+          <div class="card__divider"></div>
+          <div class="card__section">
+            <p class="card__label">Core Technologies</p>
+            <div class="tag-list">
+              <span>Python</span><span>PostgreSQL</span><span>Docker</span><span>AWS</span><span>FastAPI</span><span>Pandas</span>
             </div>
           </div>
-
-          <div class="terminal">
-            <div class="terminal__line"><span class="muted">$</span> python main.py --run pipeline</div>
-            <div class="terminal__line ok">✓ Extract: 3 sources (CSV/Excel/JSON)</div>
-            <div class="terminal__line ok">✓ Transform: cleaned + standardized</div>
-            <div class="terminal__line ok">✓ Load: PostgreSQL (stores/products/sales)</div>
-            <div class="terminal__line ok">✓ Analytics: revenue, trends, top products</div>
-            <div class="terminal__line blink">▋</div>
+          <div class="card__divider"></div>
+          <div class="card__section">
+            <p class="card__label">Contact</p>
+            <a class="card__link" href="mailto:yashodeep.basnet@gmail.com">yashodeep.basnet@gmail.com</a>
           </div>
-
-          <div class="badges">
-            <span>Python</span><span>PostgreSQL</span><span>Docker</span><span>AWS</span><span>FastAPI</span>
-          </div>
-        </div>
+        </aside>
       </div>
+
+      <div class="hero__rule reveal"></div>
     </section>
 
     <!-- Projects -->
     <section class="section container" id="projects">
       <div class="section__head reveal">
-        <h2>Featured Projects</h2>
-        <p>Production-style projects focused on data pipelines, indexing systems, and analytics.</p>
+        <span class="section__num">01</span>
+        <h2>Research &amp; Projects</h2>
+        <p>Production-style projects focused on data pipelines, information retrieval, and machine learning systems.</p>
       </div>
 
-      <div class="grid projects">
-        <!-- Project Card 1 -->
+      <div class="projects">
+
         <article class="p-card reveal">
-          <div class="p-card__top">
-            <div class="p-title">Retail Sales ETL Pipeline</div>
-            <div class="p-tag">ETL • PostgreSQL</div>
+          <div class="p-card__meta">
+            <span class="p-num">P01</span>
+            <span class="p-tag">ETL · PostgreSQL</span>
           </div>
+          <h3 class="p-title">Retail Sales ETL Pipeline</h3>
           <p class="p-desc">
-            Automated ETL pipeline to ingest multi-format data (CSV, Excel, JSON), clean it, model schemas,
-            and load into PostgreSQL for analytics & dashboards.
+            Automated ETL pipeline ingesting multi-format data sources (CSV, Excel, JSON),
+            applying normalization and cleaning transforms, and loading into a PostgreSQL schema
+            optimized for downstream analytics and dashboards.
           </p>
           <div class="p-stack">
             <span>Python</span><span>Pandas</span><span>PostgreSQL</span><span>Docker</span>
           </div>
           <div class="p-links">
-            <a class="link" href="https://github.com/yasho11" target="_blank" rel="noreferrer">Repo</a>
-            <a class="link" href="#contact">Request Demo</a>
+            <a class="p-link" href="https://github.com/yasho11" target="_blank" rel="noreferrer">Repository ↗</a>
+            <a class="p-link" href="#contact">Request Demo →</a>
           </div>
         </article>
 
-        <!-- Project Card 2 -->
         <article class="p-card reveal">
-          <div class="p-card__top">
-            <div class="p-title">Coventry Academic Search Engine</div>
-            <div class="p-tag">IR • TF-IDF</div>
+          <div class="p-card__meta">
+            <span class="p-num">P02</span>
+            <span class="p-tag">IR · TF-IDF</span>
           </div>
+          <h3 class="p-title">Coventry Academic Search Engine</h3>
           <p class="p-desc">
-            Vertical search engine that crawls academic publications, builds an inverted index,
-            and ranks results with weighted TF-IDF via a Flask API.
+            Vertical search engine crawling academic publications to build an inverted index,
+            ranking results via weighted TF-IDF scoring. Results surfaced through a RESTful Flask API
+            supporting structured queries.
           </p>
           <div class="p-stack">
             <span>Python</span><span>Web Crawling</span><span>Inverted Index</span><span>Flask</span>
           </div>
           <div class="p-links">
-            <a class="link" href="https://github.com/yasho11" target="_blank" rel="noreferrer">Repo</a>
-            <a class="link" href="#contact">Request Demo</a>
+            <a class="p-link" href="https://github.com/yasho11" target="_blank" rel="noreferrer">Repository ↗</a>
+            <a class="p-link" href="#contact">Request Demo →</a>
           </div>
         </article>
 
-        <!-- Project Card 3 -->
         <article class="p-card reveal">
-          <div class="p-card__top">
-            <div class="p-title">Automated News Classifier</div>
-            <div class="p-tag">NLP • Pipeline</div>
+          <div class="p-card__meta">
+            <span class="p-num">P03</span>
+            <span class="p-tag">NLP · Classification</span>
           </div>
+          <h3 class="p-title">Automated News Classifier</h3>
           <p class="p-desc">
-            Crawls news and classifies into Business, Entertainment, and Health with a scalable text pipeline.
-            Achieved F1-score above 0.97 across classes.
+            Text classification pipeline that crawls news articles and categorises them into
+            Business, Entertainment, and Health domains. Achieved a macro F1-score exceeding 0.97
+            across all classes using a scalable preprocessing pipeline.
           </p>
           <div class="p-stack">
             <span>Python</span><span>Scikit-learn</span><span>Naive Bayes</span><span>Crawling</span>
           </div>
           <div class="p-links">
-            <a class="link" href="https://github.com/yasho11" target="_blank" rel="noreferrer">Repo</a>
-            <a class="link" href="#contact">Request Demo</a>
+            <a class="p-link" href="https://github.com/yasho11" target="_blank" rel="noreferrer">Repository ↗</a>
+            <a class="p-link" href="#contact">Request Demo →</a>
           </div>
         </article>
 
-        <!-- Project Card 4 -->
         <article class="p-card reveal">
-          <div class="p-card__top">
-            <div class="p-title">Fake News Detection API</div>
-            <div class="p-tag">ML • API</div>
+          <div class="p-card__meta">
+            <span class="p-num">P04</span>
+            <span class="p-tag">ML · API Deployment</span>
           </div>
+          <h3 class="p-title">Fake News Detection API</h3>
           <p class="p-desc">
-            Processed 45,000+ articles with NLP cleaning and feature engineering.
-            Trained and compared models; deployed inference API for real-time classification.
+            Processed a corpus of 45,000+ articles with NLP cleaning and feature engineering.
+            Trained and evaluated multiple classifiers; deployed the best-performing model
+            as a real-time inference API.
           </p>
           <div class="p-stack">
             <span>Python</span><span>NLTK</span><span>Scikit-learn</span><span>Flask</span>
           </div>
           <div class="p-links">
-            <a class="link" href="https://github.com/yasho11" target="_blank" rel="noreferrer">Repo</a>
-            <a class="link" href="#contact">Request Demo</a>
+            <a class="p-link" href="https://github.com/yasho11" target="_blank" rel="noreferrer">Repository ↗</a>
+            <a class="p-link" href="#contact">Request Demo →</a>
           </div>
         </article>
+
       </div>
     </section>
 
     <!-- Skills -->
     <section class="section container" id="skills">
       <div class="section__head reveal">
-        <h2>Skills Snapshot</h2>
-        <p>Core strengths for data engineering internships.</p>
+        <span class="section__num">02</span>
+        <h2>Technical Competencies</h2>
+        <p>Core skills developed through academic coursework and independent project work.</p>
       </div>
 
-      <div class="grid skills">
+      <div class="skills-grid">
         <div class="s-card reveal">
           <h3>Data Engineering</h3>
           <ul>
             <li>ETL/ELT pipelines (batch-style)</li>
-            <li>Data cleaning, standardization</li>
-            <li>Data modeling & schema design</li>
+            <li>Data cleaning &amp; standardisation</li>
+            <li>Data modelling &amp; schema design</li>
             <li>API integration (REST)</li>
           </ul>
         </div>
 
         <div class="s-card reveal">
-          <h3>Databases & Querying</h3>
+          <h3>Databases &amp; Querying</h3>
           <ul>
             <li>PostgreSQL, MySQL, SQLite</li>
-            <li>Indexing & query optimization basics</li>
+            <li>Indexing &amp; query optimisation</li>
             <li>Analytics queries (KPIs, trends)</li>
             <li>Relational design principles</li>
           </ul>
         </div>
 
         <div class="s-card reveal">
-          <h3>Tools & Deployment</h3>
+          <h3>Tools &amp; Deployment</h3>
           <ul>
-            <li>Docker (containerized pipelines)</li>
-            <li>Git/GitHub (clean version control)</li>
-            <li>AWS fundamentals (S3/EC2)</li>
-            <li>Flask / FastAPI for services</li>
+            <li>Docker (containerised pipelines)</li>
+            <li>Git / GitHub version control</li>
+            <li>AWS fundamentals (S3 / EC2)</li>
+            <li>Flask / FastAPI services</li>
           </ul>
         </div>
       </div>
@@ -251,24 +239,33 @@
     <!-- Journey -->
     <section class="section container" id="journey">
       <div class="section__head reveal">
-        <h2>Journey</h2>
-        <p>Education & focus areas aligned with data engineering.</p>
+        <span class="section__num">03</span>
+        <h2>Education</h2>
+        <p>Academic background aligned with data engineering and computational systems.</p>
       </div>
 
       <div class="timeline">
         <div class="t-item reveal">
-          <div class="t-dot"></div>
+          <div class="t-left">
+            <span class="t-year">2023 —</span>
+            <span class="t-year t-year--sub">Present</span>
+          </div>
           <div class="t-body">
-            <h3>Master’s — Data Science & Computational Intelligence (Ongoing)</h3>
-            <p>Softwarica College (Coventry University). Focus: data engineering, cloud systems, ML for analytics.</p>
+            <h3>MSc. Data Science &amp; Computational Intelligence</h3>
+            <p class="t-inst">Softwarica College · Coventry University, UK</p>
+            <p class="t-desc">Focus areas: data engineering, cloud systems, machine learning for analytics, distributed data processing.</p>
           </div>
         </div>
 
         <div class="t-item reveal">
-          <div class="t-dot"></div>
+          <div class="t-left">
+            <span class="t-year">2019 —</span>
+            <span class="t-year t-year--sub">2023</span>
+          </div>
           <div class="t-body">
-            <h3>Bachelor’s — Software Engineering (GPA 4.0/4.0)</h3>
-            <p>NAMI College (University of Northampton). Strong base in backend systems and databases.</p>
+            <h3>BSc. (Hons) Software Engineering — GPA 4.0 / 4.0</h3>
+            <p class="t-inst">NAMI College · University of Northampton, UK</p>
+            <p class="t-desc">Strong foundation in backend systems, relational databases, algorithms and software architecture.</p>
           </div>
         </div>
       </div>
@@ -276,23 +273,33 @@
 
     <!-- Contact -->
     <section class="section container" id="contact">
-      <div class="contact reveal">
-        <div class="contact__left">
-          <h2>Let’s build something reliable.</h2>
-          <p>
-            Want a data engineering intern who can ship ETL pipelines, write SQL, and deploy systems cleanly?
-            Message me and I’ll respond fast.
-          </p>
+      <div class="section__head reveal">
+        <span class="section__num">04</span>
+        <h2>Contact</h2>
+        <p>Available for data engineering internships. Happy to discuss projects, answer questions, or arrange a demo.</p>
+      </div>
 
-          <div class="contact__chips">
-            <span>ETL Pipelines</span>
-            <span>PostgreSQL</span>
-            <span>Docker</span>
-            <span>APIs</span>
+      <div class="contact-grid">
+        <div class="contact__info reveal">
+          <div class="contact__item">
+            <span class="contact__label">Email</span>
+            <a href="mailto:yashodeep.basnet@gmail.com" class="contact__val">yashodeep.basnet@gmail.com</a>
+          </div>
+          <div class="contact__item">
+            <span class="contact__label">GitHub</span>
+            <a href="https://github.com/yasho11" target="_blank" rel="noreferrer" class="contact__val">github.com/yasho11 ↗</a>
+          </div>
+          <div class="contact__item">
+            <span class="contact__label">LinkedIn</span>
+            <a href="https://linkedin.com/in/yashodeep-basnet" target="_blank" rel="noreferrer" class="contact__val">linkedin.com/in/yashodeep-basnet ↗</a>
+          </div>
+          <div class="contact__item">
+            <span class="contact__label">Location</span>
+            <span class="contact__val contact__val--plain">Kathmandu, Nepal</span>
           </div>
         </div>
 
-        <form class="contact__form" onsubmit="return false;">
+        <form class="contact__form reveal" onsubmit="return false;">
           <label>
             <span>Name</span>
             <input type="text" placeholder="Your name" />
@@ -305,24 +312,22 @@
 
           <label>
             <span>Message</span>
-            <textarea rows="5" placeholder="Tell me what you're building..."></textarea>
+            <textarea rows="5" placeholder="Tell me about the role or project…"></textarea>
           </label>
 
-          <button class="btn btn--primary" id="copyEmail">Copy Email</button>
-
-          <div class="contact__links">
-            <a class="link" href="mailto:yashodeep.basnet@gmail.com">yashodeep.basnet@gmail.com</a>
-            <a class="link" href="https://github.com/yasho11" target="_blank" rel="noreferrer">GitHub</a>
-            <a class="link" href="https://linkedin.com/in/yashodeep-basnet" target="_blank" rel="noreferrer">LinkedIn</a>
+          <div class="form__actions">
+            <button class="btn btn--primary" type="submit">Send Message</button>
+            <button class="btn btn--outline" id="copyEmail" type="button">Copy Email</button>
           </div>
+
           <p class="toast" id="toast" aria-live="polite"></p>
         </form>
       </div>
     </section>
 
     <footer class="footer container">
-      <p>© <span id="year"></span> Yashodeep Basnet — Built with HTML, CSS & JS</p>
-      <a href="#top" class="link">Back to top ↑</a>
+      <p>© <span id="year"></span> Yashodeep Basnet — Built with HTML, CSS &amp; JS</p>
+      <a href="#top" class="footer__link">Back to top ↑</a>
     </footer>
   </main>
 
