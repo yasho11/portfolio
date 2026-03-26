@@ -325,8 +325,8 @@ body {
   display: inline-block;
   width: 7px; height: 7px;
   border-radius: 50%;
-  background: #2D8A50;
-  box-shadow: 0 0 0 3px rgba(45, 138, 80, 0.15);
+  background: #C0392B;
+  box-shadow: 0 0 0 3px rgba(192, 57, 43, 0.15);
   flex-shrink: 0;
 }
 
