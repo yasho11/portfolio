@@ -328,7 +328,7 @@ body {
   display: inline-block;
   width: 7px; height: 7px;
   border-radius: 50%;
-  background: #C0392B;
+  background: #18d644;
   box-shadow: 0 0 0 3px rgba(192, 57, 43, 0.15);
   flex-shrink: 0;
 }
